@@ -51,6 +51,17 @@ nav ul li:hover{
     background-color: lightskyblue;
 }
 
+a:visited {
+    margin-top: 4rem;
+    border-top: 0.1rem solid slategray;
+    font-size: 0.8rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
 nav li {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -62,14 +73,15 @@ nav li a {
     color: black;
 }
 
-a:visited {
-    margin-top: 4rem;
-    border-top: 0.1rem solid slategray;
-    font-size: 0.8rem;
-}
-
 .flex {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
